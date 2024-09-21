@@ -3,13 +3,149 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>LARIX responsive Design</title>
 </head>
 <body>
-    
-<script src="index.js"></script>
-    
-    
+  <!-- header section starts -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <i class="mdi mdi-chart-donut-variant icon"></i>
+        <span >LARIX</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#" style="color:blue">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">works</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">about</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">contact</a>
+          </li>
+          
+          
+        </ul>
+       
+      </div>
+    </div>
+  </nav>
+  <section class="section1 pt-5">
+   <div class="container container1 d-flex align-items-center justify-content-center vh-100 ">
+    <div class="row g-4">
+      <div class="col-lg-7 col-md-12  col-sm-12">
+        <h5 class="textspan mb-2 mt-5">
+          Awesome Design
+        </h5>
+        <h1 class="mb-5">Digital solutions that engage, inspire and make you think</h1>
+        <p class="mb-5">Our users are impatient. They're probably distracted too. Keep it simple and beautiful, fun and functional. Clean aesthetics supported by a strong concept is what we stand for.</p>
+        <div class="d-grid gap-3 d-md-block mt-5">
+          <button class="btn btn-primary" type="button">Get Started</button>
+          <button class="btn bg-white mybtn" type="button">view more <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+      </div>
+      <div class="col-lg-5 col-md-12  col-sm-12 myform">
+        <form class="" >
+          <div class="row">
+            <p class="form-title mb-4 text-center fw-bold">We are offering 14 days free trial
+            </p>
+            <label for="inputFirstName" class="col-12  col-form-label">First Name</label>
+            <div class="col-12 mb-2">
+              <input type="text" class="form-control " id="inputFirstName"  style="background: white;">
+            </div>
+          </div>
+          <div class="row mb-3">
+            <label for="inputLastName" class="col-12 col-form-label">Last Name</label>
+            <div class="col-12 mb-2">
+              <input type="text" class="form-control" id="inputLastName"  style="background: white;">
+            </div>
+          </div>
+          <div class="row mb-3">
+            <label for="inputEmail3" class="col-12 col-form-label">Email</label>
+            <div class="col-12 mb-2">
+              <input type="email" class="form-control" id="inputEmail3"  style="background: white;">
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary col-12 mb-5">Free trial</button>
+        </form>
+      </div>
+      
+    </div>
+   </div>
+  </section>
+  <section class="mt-5">
+    <div class="container">
+      <div class="text text-center">
+        <h2 class="text-uppercase mb-3" style="font-weight:bolder">Testimonial</h2>
+        <p class="title-disc text-muted mb-4">We craft digital, graphic and dimensional thinking, to create category leading brand experiences that have meaning and add a value.</p>
+      </div>
+      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <!-- First Slide -->
+          <div class="carousel-item active" data-bs-interval="10000">
+            <div class="w-75 m-auto " style="height: 400px; color:#667482">
+              <p class="testi-content">it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a normal of letters, as opposed to using making it look like readable English.</p>
+            </div>
+            <div class="carousel-caption d-none d-md-block">
+              <img src="./imges/img1.jpg" alt="" class="myimg ">
+              <h2>Ceo</h2>
+              <p>Some text for the second slide.</p>
+            </div>
+          </div>
+          <!-- Second Slide -->
+          <div class="carousel-item" data-bs-interval="2000">
+            <div class="w-75 m-auto " style="height: 400px; color:#667482">
+              <p class="testi-content">it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a normal of letters, as opposed to using making it look like readable English.</p>
+            </div>
+            <div class="carousel-caption d-none d-md-block ">
+              <img src="./imges/img1.jpg" alt="" class="myimg">
+              <h2>Ceo</h2>
+              <p>Some text for the second slide.</p>
+            </div>
+          </div>
+          <!-- Third Slide -->
+          <div class="carousel-item">
+            <div class="w-75 m-auto " style="height: 400px; color:#667482">
+              <p class=" testi-content">it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a normal of letters, as opposed to using making it look like readable English.</p>
+            </div>
+            <div class="carousel-caption d-none d-md-block ">
+              <img src="./imges/img1.jpg" alt="" class="myimg">
+              <h2>Ceo</h2>
+              <p>Some text for the second slide.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+ 
+  
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+    <Script src="index.js"></Script>
 </body>
 </html>
