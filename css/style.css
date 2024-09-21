@@ -27,7 +27,7 @@ html{
     color: blue !important; 
   }
   .section1{
-    background: url('./imges/home.jpg') center no-repeat;
+    background: url('../imges/home.jpg') center no-repeat;
     background-size: cover;
     overflow: hidden;
     
