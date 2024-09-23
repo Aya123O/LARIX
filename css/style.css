@@ -1,0 +1,107 @@
+body{
+    font-family: 'Rubik',sans-serif;
+    font-size: 14px;
+    color: #525456;
+}
+.pricing{
+    padding: 50px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom:800px ;
+}
+
+.title{
+    margin: 20px 0;
+}
+.buy h4{
+    display: block;
+    margin-bottom: 8px;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.buy p{
+    color: #6c757d;
+    line-height:1.8em;
+    display: block;
+    font-size: small;
+    font-family: sans-serif;    
+}
+.card{
+    
+    margin-bottom:20px;
+    background-color: #f9f9f9;
+    padding: 28px;
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0px 40px 40px rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
+}
+.value h3 {
+    display: inline-block;
+    padding-right: 10px;
+    font-size: 46px;
+    position: relative;
+}
+.value h3 span {
+    font-size: 14px;
+    position: absolute;
+    top: 5px;
+}
+.text-muted{color: #6c757d;}
+.text-muted li{
+    margin: 15px;
+    display: list-item;
+    text-align: -webkit-match-parent;
+    unicode-bidi: isolate;
+}
+
+.btn {
+  
+        padding: 14px 28px;
+        font-size: 12px;
+        letter-spacing: 0.9px;
+        font-weight: 500;
+        text-transform: uppercase;
+        transition: all .5s ease;
+    
+}
+
+.btn:hover {
+    background-color: #0056b3;
+    transform: translatey(-5px);
+}
+a{
+    text-decoration: none;
+    outline: none;
+}
+.team{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    position: relative;
+}
+.team h4{
+    line-height: 42px;
+    font-weight: 400px;
+}
+.team p{
+    font-weight: 300px;
+    font-size: 17px;
+    line-height: 30px;
+    margin-bottom: 16px;
+}
+.team .about{
+    border-left: 1px solid #e7e7e7;
+}
+.member {
+    text-align: center;
+    width: 20%;
+    line-height: 1.8em;
+}
+
+.member img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
