@@ -10,9 +10,7 @@ body{
     margin-bottom:800px ;
 }
 
-.title{
-    margin: 20px 0;
-}
+
 .buy h4{
     display: block;
     margin-bottom: 8px;
@@ -21,10 +19,11 @@ body{
 }
 .buy p{
     color: #6c757d;
-    line-height:1.8em;
+    line-height:1.8rem;
     display: block;
     font-size: small;
-    font-family: sans-serif;    
+    font-family: sans-serif;   
+    text-align: center; 
 }
 .card{
     
@@ -75,20 +74,23 @@ a{
     text-decoration: none;
     outline: none;
 }
+.active{
+    background-color: white;
+}
 .team{
     padding-top: 80px;
     padding-bottom: 80px;
     position: relative;
 }
-.team h4{
+.team h2{
     line-height: 42px;
     font-weight: 400px;
 }
-.team p{
-    font-weight: 300px;
+.team .title p{
     font-size: 17px;
     line-height: 30px;
     margin-bottom: 16px;
+    font-weight: 300px;
 }
 .team .about{
     border-left: 1px solid #e7e7e7;
@@ -104,4 +106,13 @@ a{
     width: 100px;
     height: 100px;
     margin-bottom: 10px;
+   
+}
+.team-member{
+    
+    filter: grayscale(100%);
+    max-width: 160px;
+}
+.team-member :hover{
+    filter: grayscale(-1%);
 }
